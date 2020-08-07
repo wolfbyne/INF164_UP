@@ -31,15 +31,15 @@
             this.lblHeading = new System.Windows.Forms.Label();
             this.lblSubHeading = new System.Windows.Forms.Label();
             this.gbApply = new System.Windows.Forms.GroupBox();
-            this.cbUnderOrPost = new System.Windows.Forms.ComboBox();
-            this.cbDegree = new System.Windows.Forms.ComboBox();
-            this.lblUnderOrPost = new System.Windows.Forms.Label();
-            this.lblDegree = new System.Windows.Forms.Label();
             this.btnContinue = new System.Windows.Forms.Button();
+            this.lblDegree = new System.Windows.Forms.Label();
+            this.lblUnderOrPost = new System.Windows.Forms.Label();
+            this.cbDegree = new System.Windows.Forms.ComboBox();
+            this.cbUnderOrPost = new System.Windows.Forms.ComboBox();
+            this.rtbApplicationLetter = new System.Windows.Forms.RichTextBox();
             this.lblStep2 = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
-            this.rtbApplicationLetter = new System.Windows.Forms.RichTextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblComeback = new System.Windows.Forms.Label();
             this.gbApply.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,13 +70,51 @@
             this.gbApply.Controls.Add(this.lblUnderOrPost);
             this.gbApply.Controls.Add(this.cbDegree);
             this.gbApply.Controls.Add(this.cbUnderOrPost);
-            this.gbApply.Controls.Add(this.rtbApplicationLetter);
             this.gbApply.Location = new System.Drawing.Point(131, 168);
             this.gbApply.Name = "gbApply";
             this.gbApply.Size = new System.Drawing.Size(574, 231);
             this.gbApply.TabIndex = 2;
             this.gbApply.TabStop = false;
             this.gbApply.Text = "Apply Now!";
+            // 
+            // btnContinue
+            // 
+            this.btnContinue.Enabled = false;
+            this.btnContinue.Location = new System.Drawing.Point(265, 186);
+            this.btnContinue.Name = "btnContinue";
+            this.btnContinue.Size = new System.Drawing.Size(85, 28);
+            this.btnContinue.TabIndex = 4;
+            this.btnContinue.Text = "Continue";
+            this.btnContinue.UseVisualStyleBackColor = true;
+            this.btnContinue.Click += new System.EventHandler(this.btnContinue_Click);
+            // 
+            // lblDegree
+            // 
+            this.lblDegree.AutoSize = true;
+            this.lblDegree.Location = new System.Drawing.Point(58, 146);
+            this.lblDegree.Name = "lblDegree";
+            this.lblDegree.Size = new System.Drawing.Size(123, 13);
+            this.lblDegree.TabIndex = 3;
+            this.lblDegree.Text = "Select a degree program";
+            // 
+            // lblUnderOrPost
+            // 
+            this.lblUnderOrPost.AutoSize = true;
+            this.lblUnderOrPost.Location = new System.Drawing.Point(58, 80);
+            this.lblUnderOrPost.Name = "lblUnderOrPost";
+            this.lblUnderOrPost.Size = new System.Drawing.Size(189, 13);
+            this.lblUnderOrPost.TabIndex = 2;
+            this.lblUnderOrPost.Text = "Select under graduate or postgraduate";
+            // 
+            // cbDegree
+            // 
+            this.cbDegree.Enabled = false;
+            this.cbDegree.FormattingEnabled = true;
+            this.cbDegree.Location = new System.Drawing.Point(411, 138);
+            this.cbDegree.Name = "cbDegree";
+            this.cbDegree.Size = new System.Drawing.Size(121, 21);
+            this.cbDegree.TabIndex = 1;
+            this.cbDegree.SelectedIndexChanged += new System.EventHandler(this.cbDegree_SelectedIndexChanged);
             // 
             // cbUnderOrPost
             // 
@@ -88,43 +126,17 @@
             this.cbUnderOrPost.Name = "cbUnderOrPost";
             this.cbUnderOrPost.Size = new System.Drawing.Size(121, 21);
             this.cbUnderOrPost.TabIndex = 0;
+            this.cbUnderOrPost.SelectedIndexChanged += new System.EventHandler(this.cbUnderOrPost_SelectedIndexChanged);
             // 
-            // cbDegree
+            // rtbApplicationLetter
             // 
-            this.cbDegree.Enabled = false;
-            this.cbDegree.FormattingEnabled = true;
-            this.cbDegree.Location = new System.Drawing.Point(411, 138);
-            this.cbDegree.Name = "cbDegree";
-            this.cbDegree.Size = new System.Drawing.Size(121, 21);
-            this.cbDegree.TabIndex = 1;
-            // 
-            // lblUnderOrPost
-            // 
-            this.lblUnderOrPost.AutoSize = true;
-            this.lblUnderOrPost.Location = new System.Drawing.Point(58, 80);
-            this.lblUnderOrPost.Name = "lblUnderOrPost";
-            this.lblUnderOrPost.Size = new System.Drawing.Size(189, 13);
-            this.lblUnderOrPost.TabIndex = 2;
-            this.lblUnderOrPost.Text = "Select under graduate or postgraduate";
-            // 
-            // lblDegree
-            // 
-            this.lblDegree.AutoSize = true;
-            this.lblDegree.Location = new System.Drawing.Point(58, 146);
-            this.lblDegree.Name = "lblDegree";
-            this.lblDegree.Size = new System.Drawing.Size(123, 13);
-            this.lblDegree.TabIndex = 3;
-            this.lblDegree.Text = "Select a degree program";
-            // 
-            // btnContinue
-            // 
-            this.btnContinue.Enabled = false;
-            this.btnContinue.Location = new System.Drawing.Point(265, 186);
-            this.btnContinue.Name = "btnContinue";
-            this.btnContinue.Size = new System.Drawing.Size(85, 28);
-            this.btnContinue.TabIndex = 4;
-            this.btnContinue.Text = "Continue";
-            this.btnContinue.UseVisualStyleBackColor = true;
+            this.rtbApplicationLetter.AcceptsTab = true;
+            this.rtbApplicationLetter.Location = new System.Drawing.Point(12, 152);
+            this.rtbApplicationLetter.Name = "rtbApplicationLetter";
+            this.rtbApplicationLetter.Size = new System.Drawing.Size(776, 230);
+            this.rtbApplicationLetter.TabIndex = 5;
+            this.rtbApplicationLetter.Text = "";
+            this.rtbApplicationLetter.Visible = false;
             // 
             // lblStep2
             // 
@@ -148,31 +160,23 @@
             this.btnSubmit.Visible = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
-            // rtbApplicationLetter
+            // lblComeback
             // 
-            this.rtbApplicationLetter.Location = new System.Drawing.Point(-119, -5);
-            this.rtbApplicationLetter.Name = "rtbApplicationLetter";
-            this.rtbApplicationLetter.Size = new System.Drawing.Size(776, 230);
-            this.rtbApplicationLetter.TabIndex = 5;
-            this.rtbApplicationLetter.Text = "";
-            this.rtbApplicationLetter.Visible = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(322, 411);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "You can come back to edit your letter at any time!";
-            this.label1.Visible = false;
+            this.lblComeback.AutoSize = true;
+            this.lblComeback.Location = new System.Drawing.Point(322, 411);
+            this.lblComeback.Name = "lblComeback";
+            this.lblComeback.Size = new System.Drawing.Size(241, 13);
+            this.lblComeback.TabIndex = 5;
+            this.lblComeback.Text = "You can come back to edit your letter at any time!";
+            this.lblComeback.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 484);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.rtbApplicationLetter);
+            this.Controls.Add(this.lblComeback);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.lblStep2);
             this.Controls.Add(this.gbApply);
@@ -180,6 +184,7 @@
             this.Controls.Add(this.lblHeading);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.gbApply.ResumeLayout(false);
             this.gbApply.PerformLayout();
             this.ResumeLayout(false);
@@ -200,7 +205,7 @@
         private System.Windows.Forms.Label lblStep2;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.RichTextBox rtbApplicationLetter;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblComeback;
     }
 }
 
