@@ -8,3 +8,12 @@ C:\Users\flemi_2sp4kd9\source\repos\INF164Prac02Exercise2-TicTacToe(u20447613)\I
 C:\Users\flemi_2sp4kd9\source\repos\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).csproj.CoreCompileInputs.cache
 C:\Users\flemi_2sp4kd9\source\repos\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).exe
 C:\Users\flemi_2sp4kd9\source\repos\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).pdb
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\bin\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).exe.config
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\bin\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).exe
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\bin\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).pdb
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).csprojAssemblyReference.cache
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2_TicTacToe_u20447613_.frmTicTacToe.resources
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2_TicTacToe_u20447613_.Properties.Resources.resources
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).csproj.GenerateResource.cache
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).exe
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164Prac02Exercise2-TicTacToe(u20447613)\INF164Prac02Exercise2-TicTacToe(u20447613)\obj\Debug\INF164Prac02Exercise2-TicTacToe(u20447613).pdb

@@ -1,0 +1,9 @@
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\bin\Debug\INF164Prac03-Part2(u20447613).exe.config
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\bin\Debug\INF164Prac03-Part2(u20447613).exe
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\bin\Debug\INF164Prac03-Part2(u20447613).pdb
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\obj\Debug\INF164Prac03-Part2(u20447613).csprojAssemblyReference.cache
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\obj\Debug\INF164Prac03_Part2_u20447613_.Form1.resources
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\obj\Debug\INF164Prac03_Part2_u20447613_.Properties.Resources.resources
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\obj\Debug\INF164Prac03-Part2(u20447613).csproj.GenerateResource.cache
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\obj\Debug\INF164Prac03-Part2(u20447613).exe
+C:\Users\flemi\Documents\GitHub\INF164_UP\Prac_3_Both_Parts\INF164Prac03-Part2(u20447613)\INF164Prac03-Part2(u20447613)\obj\Debug\INF164Prac03-Part2(u20447613).pdb
