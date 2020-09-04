@@ -37,3 +37,8 @@ C:\Users\flemi_2sp4kd9\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_
 C:\Users\flemi_2sp4kd9\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_U20447613\obj\Debug\INF164_A1_U20447613.csproj.CoreCompileInputs.cache
 C:\Users\flemi_2sp4kd9\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_U20447613\obj\Debug\INF164_A1_U20447613.exe
 C:\Users\flemi_2sp4kd9\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_U20447613\obj\Debug\INF164_A1_U20447613.pdb
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_U20447613\bin\Debug\Interop.WMPLib.dll
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_U20447613\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_U20447613\obj\Debug\Interop.WMPLib.dll
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_U20447613\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\flemi\Documents\GitHub\INF164_UP\INF164_A1_U20447613\INF164_A1_U20447613\obj\Debug\INF164_A1_U20447613.csproj.ResolveComReference.cache
