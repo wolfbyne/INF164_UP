@@ -33,7 +33,7 @@ namespace INF164_A2_U20447613
                     {
                         if (frmOne.dgPets[3, rowindex].Value.Equals(frmOne.dgClients[0, i].Value))
                         {
-                            frmOne.dgClients[0, i].Value = txtOwnerID.Text;
+                            frmOne.dgClients[0, i].Value = newPet.IDnum;
                         }
                     }
                     frmOne.dgPets.Rows[rowindex].SetValues(new object[] { newPet.Name, newPet.Age, newPet.Type, newPet.IDnum });

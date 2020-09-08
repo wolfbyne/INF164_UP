@@ -1,0 +1,10 @@
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\bin\Debug\u20447613ClassTest.exe.config
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\bin\Debug\u20447613ClassTest.exe
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\bin\Debug\u20447613ClassTest.pdb
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\obj\Debug\u20447613ClassTest.csprojAssemblyReference.cache
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\obj\Debug\u20447613ClassTest.frmGame.resources
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\obj\Debug\u20447613ClassTest.frmInfo.resources
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\obj\Debug\u20447613ClassTest.Properties.Resources.resources
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\obj\Debug\u20447613ClassTest.csproj.GenerateResource.cache
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\obj\Debug\u20447613ClassTest.exe
+C:\Users\flemi\Documents\GitHub\INF164_UP\u20447613ClassTest\u20447613ClassTest\obj\Debug\u20447613ClassTest.pdb

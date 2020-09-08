@@ -37,7 +37,7 @@ namespace INF164_A2_U20447613
                     {
                         if (frmOne.dgClients[0, rowindex].Value.Equals(frmOne.dgPets[3, i].Value))
                         {
-                            frmOne.dgPets[3, i].Value = txtIDnum.Text;
+                            frmOne.dgPets[3, i].Value = newClient.IDnum;
                         }
                     }
                     frmOne.dgClients.Rows[rowindex].SetValues(new object[] { newClient.IDnum, newClient.Name, newClient.Surname, newClient.CredLimit, newClient.calcCurrentBal(paymentamount, purchaseamount) });
