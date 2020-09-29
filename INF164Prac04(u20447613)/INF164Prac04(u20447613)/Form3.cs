@@ -46,7 +46,7 @@ namespace INF164Prac04_u20447613_
                     }
                     else if (val > 3.9)
                     {
-                        dgBooks[4, i].Style.BackColor = Color.Green;
+                        dgBooks[4, i].Style.ForeColor = Color.Green;
                     }
                 }
             }
