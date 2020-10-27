@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right, white, blue);
+}
+h1{
+    font-size: 32px;
+    color: darkblue;
+}
+#table{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+#form{
+    background-color: rgba(255, 166, 0, 0.527);
+    padding: 12px;
+}
+table{
+    border: 3px solid darkblue;
+}
+th{
+    border: 3px solid darkblue;
+    background-color: rgb(162, 197, 199);
+}
+td{
+    border: 3px solid darkblue;
+}
+tr:hover{
+    background-color: lightcoral;
+}
+button{
+    border: 0;
+    width: 100%;
+    color: white;
+    background-color: lightseagreen;
+    padding: 12px;
+}
+input[type=submit] { 
+    background-color: orange; 
+    width: 100%; border: 0; 
+    padding: 5px;"
+}
+input[type=reset] { 
+    background-color: green; 
+    width: 100%; border: 0; 
+    padding: 5px;
+}
+img{
+    opacity: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
