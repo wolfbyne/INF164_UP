@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script>
+            var head = false;
+            var mytimer;
+
+            function tick(){
+                mytimer = setInterval(function time(){
+                    var date = new Date();
+                    var hours = date.getHours();
+                    if(hours > 12){
+                        document.getElementById('clock').innerHTML = date.toLocaleTimeString() + " PM";
+                    }else{
+                        document.getElementById('clock').innerHTML = date.toLocaleTimeString() + " AM";
+                    }   
+                }, 1000)
+                head = true;
+            }
+            function text(){
+                document.getElementById('clock').innerHTML = "Need The Time?";
+                head = false;
+                clearInterval(mytimer);
+            }
+
+            function toggleHeading(){
+                head ? text() : tick();
+            }
+        </script>
+
+        <h1 align="center">INF 164</h1>
+        <h4 align="center">Home Page</h4>
+        <h5 align="center"><u>Welcome To The INF 164 Website!</u></h5>
+
+        <h6 id="clock" align="center">Need The Time?</h6>
+        <div>
+            <button align="center" onclick="toggleHeading()" >Start Clock</button>
+        </div>
+        <p>This website allows you to sign up for announcements about the latest programming <strong>trends</strong> and <strong>tools</strong>. We encourage you to make use of this resource to enhance your knowledge and skills for the challenging world of IT.</p>
+        
+        <center><p>The table below shows what categories are covered in the 164 announcements.</p></center>
+        <div id="table">
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>What You Can Expect</th>
+            </tr>
+            <tr>
+                <td>Programming</td>
+                <td>languages such as C#, Python and Javascript</td>
+            </tr>
+            <tr>
+                <td>IDE's</td>
+                <td>Visual Studio</td>
+            </tr>
+            <tr>
+                <td>Trends</td>
+                <td>Big Data, E-Commerce</td>
+            </tr>
+        </table>
+        </div>
+
+        <br><br>
+        <p>In order to sign up, you need to provide the following information:</p>
+        <ul>
+            <li>Name</li>
+            <li>Surname</li>
+            <li>Gender</li>
+        </ul>
+        <a href="file:///C:/Users/flemi/Documents/GitHub/INF164_UP/INF164Prac08(u20447613)/Signup.html"><button id="submit" type="submit">Click here to go to the Sign Up page!</button></a> 
+    </body>
+</html>

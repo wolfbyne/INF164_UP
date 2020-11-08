@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+    </head>
+    <style>
+        table{
+            border: 2px solid black;
+            width: 100%;
+            padding: 0;
+        }
+        th{
+            background-color: rgb(75, 180, 75);
+            color: white;
+            text-decoration: underline;
+            margin: 0;
+            text-align: left;
+        }
+        td{
+            border: 2px solid grey;
+            margin: 0;
+        }
+        tr:nth-child(even){
+            background-color: rgba(105, 73, 134, 0.671);
+        }
+        button{
+            margin: 2rem;
+            padding: 10px;
+            font-size: 18px;
+            background-color: rgba(53, 101, 173, 0.733);
+            border: 0;
+        }
+    </style>
+    <body>
+        <u><h1 align="center">Hotels</h1></u>
+        <p align="center">Select a hotel that you would like to stay in from the table below:</p>
+
+        <table>
+            <th>Hotel Name</th>
+            <th>Location</th>
+            <th>Star Rating</th>
+            <th>Pool on premisis</th>
+            <th>Image</th>
+            <th></th>
+
+            <tr>
+                <td>Beverley Hills Hotel</td>
+                <td>Durban</td>
+                <td>5 STAR</td>
+                <td>YES</td>
+                <td><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.wr_ZbVBbIflSl71gqWJjEwHaEe%26pid%3DApi&f=1" alt="hotel"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Dubai Hotel</td>
+                <td>Dubai</td>
+                <td>4 STAR</td>
+                <td>YES</td>
+                <td><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.UsxFP3BbvEc-5jWsB8d9pQHaFA%26pid%3DApi&f=1" alt="hotel"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Edgeway Hotel</td>
+                <td>New York</td>
+                <td>5 STAR</td>
+                <td>NO</td>
+                <td><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.f088EU9_UwFiN_8UEJgR6QHaEM%26pid%3DApi&f=1" alt="hotel"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Berk Hotel</td>
+                <td>Bloemfontein</td>
+                <td>2 STAR</td>
+                <td>NO</td>
+                <td><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.cH90M49kDAmq2OhlBQSXBgHaFj%26pid%3DApi&f=1" alt="hotel"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Graduate Hotel</td>
+                <td>Constantia</td>
+                <td>1 STAR</td>
+                <td>NO</td>
+                <td><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.graduatehotels.com%2Fberkeley%2Fwp-content%2Fuploads%2Fsites%2F7%2F2017%2F04%2FGHB-EXTERIORS-0456_780x560.jpg&f=1&nofb=1" alt="hotel"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Great Big Hotel</td>
+                <td>China</td>
+                <td>3 STAR</td>
+                <td>YES</td>
+                <td><img src="https://newengland.com/wp-content/uploads/Blantyre-Berkshires-Hotels-780x520.jpg" alt="hotel"></td>
+                <td><input type="radio"></td>
+            </tr>
+        </table>
+
+        <div align="center">
+            <button onclick="alert('Thank you for your selection! You may now click on the NEXT button')">Submit</button>
+            <a href="counter.html"><button>Next</button></a>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

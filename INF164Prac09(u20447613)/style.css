@@ -5,6 +5,9 @@ h1{
     font-size: 32px;
     color: darkblue;
 }
+h6{
+    font-size: 16px;
+}
 #table{
     margin: auto;
     width: 30%;
@@ -27,12 +30,15 @@ td{
 tr:hover{
     background-color: lightcoral;
 }
-button{
+#submit{
     border: 0;
     width: 100%;
     color: white;
     background-color: lightseagreen;
     padding: 12px;
+}
+div{
+    text-align: center;
 }
 input[type=submit] { 
     background-color: orange; 
